@@ -1,0 +1,37 @@
+{
+  "name": "automation_cypress_with_cucumber_v11",
+  "version": "1.0.0",
+  "description": "Cypress with Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "Cucumber"
+  ],
+  "author": "Mayara Monteiro de Souza",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^14.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^11.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "skipCopyingScreenshots": true,
+    "stepDefinitions": [
+      "[filepath]/**/*.{js,ts}",
+      "[filepath].{js,ts}",
+      "cypress/e2e/step_definitions/*.{js,ts}"
+    ],
+    "html": {
+      "enabled": true
+    },
+    "messages": {
+      "enabled": true,
+      "output": "jsonlogs/messages.ndjson"
+    }
+  }
+}
