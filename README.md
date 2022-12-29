@@ -21,5 +21,10 @@
            
 
 4 - Passo: Resultado esperado:
+           
+           Para rodar os cenários pelo terminal
+           
+           npx cypress run
+
 ![imagem](https://user-images.githubusercontent.com/83167411/209587713-3fd383be-385d-4439-8c6c-4ac131185f46.png)
 
