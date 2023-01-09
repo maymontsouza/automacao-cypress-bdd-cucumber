@@ -1,5 +1,5 @@
 # automacao-cypress-bdd-cucumber
-### Automação site SWAGLabs no Cypress aplicando BDD com Cucumber
+### Automação site SWAGLabs no Cypress utilizando escrota BDD com Cucumber
 
 1 - Passo: Realizar o clone deste projeto(automacao-cypress-bdd-cucumber);
 
